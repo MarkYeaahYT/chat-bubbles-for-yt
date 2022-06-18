@@ -7,7 +7,7 @@ const BubbleInput = ({ onChange, onSubmit, value }) => {
 
   const handleKeyDown = e => {
     if (e.key === 'Enter') {
-      const audio = new Audio("/assets/audio/turquoise/press/ENTER.mp3");
+      const audio = new Audio("/assets/audio/iphone_send.wav");
       audio.play()
       onSubmit && onSubmit()
       e.preventDefault()
